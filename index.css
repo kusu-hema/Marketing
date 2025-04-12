@@ -7,6 +7,55 @@ h5{
     text-align: center;
     padding-bottom: 10px;
   }
+
+
+
+   /* Navbar */
+  .navbar-bar-style {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    height: 60px;
+    z-index: 999;
+  }
+
+  .navbar-bar-style .navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .navbar-toggler {
+    filter: invert(1);
+  }
+
+
+  /* Carousel */
+  .premium-img {
+    height: 85vh;
+    object-fit: cover;
+    filter: brightness(80%);
+  }
+
+  .carousel-caption {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+    padding: 1.5rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+
+  .carousel-item {
+    transition: transform 1.5s ease-in-out, opacity 1.2s ease-in-out;
+  }
+ 
+ 
  
   /* About us */
   .custom-glass {

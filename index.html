@@ -16,37 +16,72 @@
 
   <body>
 
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand text-dark fw-bold" href="#">MySite</a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-dark" type="submit">Search</button>
-          </form>
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-bar-style">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand text-white fw-bold" href="#">PROO-DIGITAL</a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+ 
+
+
+<!-- Carousel -->
+<section class="position-relative">
+  <div id="premiumCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#premiumCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#premiumCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#premiumCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/1440x1620_03.webp" class="d-block w-100 premium-img" alt="Slide 1">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h2 class="fw-bold text-light">Innovate With Us</h2>
+          <p class="text-light">Crafting next-gen digital experiences.</p>
         </div>
       </div>
-    </nav>
+      <div class="carousel-item">
+        <img src="images/1440x1620_04.webp" class="d-block w-100 premium-img" alt="Slide 2">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h2 class="fw-bold text-light">Design. Build. Launch.</h2>
+          <p class="text-light">Transforming ideas into real-world solutions.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/1440x1620_05.webp" class="d-block w-100 premium-img" alt="Slide 3">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h2 class="fw-bold text-light">Beyond Boundaries</h2>
+          <p class="text-light">Scalable, secure, stunningly simple.</p>
+        </div>
+      </div>
+    </div>
 
+    <!-- Controls -->
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#premiumCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#premiumCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+  </div>
+</section>
+
+ 
     <!-- Optional page content goes here -->
 
     <!-- Second Section -->
-    <section>
+    <section >
       <div class="container py-5">
         <h5 class="mb-4">Growing Together with Our Trusted Clients</h5>
     
